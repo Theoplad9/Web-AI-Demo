@@ -1,0 +1,25 @@
+{
+  "name": "web-ai-demo",
+  "version": "1.0.0",
+  "description": "A JavaScript-based web application demonstrating real-time AI inference in the browser using TensorFlow.js.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "keywords": [
+    "AI",
+    "Machine Learning",
+    "TensorFlow.js",
+    "Web AI",
+    "JavaScript"
+  ],
+  "author": "Dr. Ethan Vance",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
